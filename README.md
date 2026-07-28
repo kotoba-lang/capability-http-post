@@ -3,7 +3,7 @@
 Atomic authority package for `http/post`.
 
 - imports: `#{:http-post-headers :http-post}`
-- effects: `#{:network-write}`
+- effects: `#{:data-egress :network-write}`
 - default policy: `:approval-required`
 - provider status: `contract-only`
 
